@@ -28,14 +28,14 @@ jobs:
           user: marat2509
           template: classic
           base: header, activity, community, repositories
-          config_display: large
+          config_display: regular
           config_timezone: Europe/Moscow
+          repositories_skipped: marat2509
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_limit: 5
           plugin_activity_load: 300
-          plugin_activity_skipped: marat2509
           plugin_activity_visibility: public
           plugin_gists: yes
           plugin_habits: yes
@@ -45,7 +45,6 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
-          plugin_habits_skipped: marat2509
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_isocalendar: yes
@@ -54,4 +53,3 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_lines_skipped: marat2509
