@@ -28,7 +28,7 @@ jobs:
           user: marat2509
           template: classic
           base: header, activity, community, repositories
-          config_display: regular
+          config_display: large # regular
           config_timezone: Europe/Moscow
           repositories_skipped: marat2509
           # plugin_activity: yes
